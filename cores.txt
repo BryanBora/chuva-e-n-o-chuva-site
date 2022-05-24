@@ -1,0 +1,6 @@
+azul escuro #142b3b
+azul claro 1  #14709b
+azul claro 2 #1b9ae4
+
+azul cinza  #247ba0
+branco #e8f1f2

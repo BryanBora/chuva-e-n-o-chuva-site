@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuva ou não Chuva</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    
+    <header><h2 class="title">Chuva ou Não Chuva</h2>
+    <div class="descricao"><p> Vai fazer algo importante, e não quer que a chuva estrague o seu dia? ou está muito calor e gostaria de uma chuva para refrescar? peça agora sua chuva ou não chuva! </p></div>
+    </header>
+
+    <main class="main-container">
+
+        <div class="text-box-container"> 
+            
+            <div class="estadoretorno">
+                <td>Estado:</td>
+                <input type="text" name="Estado" id="estadotxt" required >
+                </div>
+            
+            <div>
+                <td>Cidade:</td>
+                <input type="text" name="Cidade" id="cidadetxt" required >
+            </div>
+
+            <div>
+                <td>Data</td>
+                <input type="date" name="data" id="datatxt" required>
+            </div>
+
+            
+
+        </div>
+
+        <div class="btn-container">
+        <input type="button" value="Quero minha chuva" onclick="chuva()">
+        <input type="button" value="Quero minha não chuva" onclick="naochuva()">
+        </div>
+
+        <div id="resultado"></div>
+
+        
+
+    </main>
+
+<script src="js.js"></script>
+</body>
+</html>
