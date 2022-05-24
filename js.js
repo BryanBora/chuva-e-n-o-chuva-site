@@ -14,10 +14,10 @@ function chuva() {
    if(estado.length <= 2 ){
      
         var estadoMaiusculo = estado.toUpperCase()
-        resultado.innerHTML = `Parabéns os indios já estão dançando e providenciando sua chuva para ${dataFormatada} em ${cidade} no ${estadoMaiusculo}.`
+        resultado.innerHTML = `Parabéns ja estamos providenciando sua chuva para ${dataFormatada} em ${cidade} no ${estadoMaiusculo}.`
 
    } else{
-       resultado.innerHTML = `Parabéns os indios já estão dançando e providenciando sua chuva para ${dataFormatada} em ${cidade} no ${estado}.`
+       resultado.innerHTML = `Parabéns ja estamos providenciando sua chuva para ${dataFormatada} em ${cidade} no ${estado}.`
    }
 }
    function naochuva() {
@@ -35,10 +35,10 @@ function chuva() {
     if(estado.length <= 2 ){
       
          var estadoMaiusculo = estado.toUpperCase()
-         resultado.innerHTML = `Parabéns os indios já estão dançando e providenciando sua não chuva para ${dataFormatada} em ${cidade} no ${estadoMaiusculo}.`
+         resultado.innerHTML = `Parabéns ja estamos providenciando sua não chuva para ${dataFormatada} em ${cidade} no ${estadoMaiusculo}.`
  
     } else{
-        resultado.innerHTML = `Parabéns os indios já estão dançando e providenciando sua não chuva para ${dataFormatada} em ${cidade} no ${estado}.`
+        resultado.innerHTML = `Parabénsja estamos providenciando sua não chuva para ${dataFormatada} em ${cidade} no ${estado}.`
     }
 
    
